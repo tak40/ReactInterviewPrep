@@ -18,10 +18,10 @@ A curated list of React interview questions with explanations, solutions, and va
 ## React Limitations
 
 2. [What are the limitations of React?](./ReactLimitations.jsx) - Explore the "limitations" of React.
-   - **It is a library, not a framework**: While this allows for more flexibility, it also means developers may need to integrate other libraries for state management, routing, etc.
-   - **It is large**: The size of the library can be an issue for performance, especially for applications that need to be lightweight.
-   - **Being owned by Facebook**: Some organizations might have reservations using a library owned by a large corporation with its licensing terms.
-   - **Documentation**: While extensive, React's documentation can sometimes be overwhelming or lack specific details on certain topics.
+    - **It is a library, not a framework**: This provides flexibility and integration in existing projects, but also leaves more architectural decisions to developers.
+    - **It is large**: While this can be mitigated by code splitting and best practices, awareness of the library's size is important. Alternatives like Preact are smaller.
+    - **Being owned by Facebook**: Ownership by a major corporation ensures stability but brings privacy and transparency concerns, and potential communication challenges with the internal team.
+    - **Documentation**: The documentation, while extensive, may not always be as up-to-date as desired.
 
 
 
