@@ -6,6 +6,7 @@ A curated list of React interview questions with explanations, solutions, and va
 
 1. [Virtual DOM and the "real" DOM](#virtual-dom-and-the-real-dom)
 2. [React Limitations](#react-limitations)
+3. [What is JSX?](#what-is-jsx)
 
 ## Virtual DOM and the "real" DOM
 
@@ -23,8 +24,12 @@ A curated list of React interview questions with explanations, solutions, and va
     - **Being owned by Facebook**: Ownership by a major corporation ensures stability but brings privacy and transparency concerns, and potential communication challenges with the internal team.
     - **Documentation**: The documentation, while extensive, may not always be as up-to-date as desired.
 
+## What is JSX?
 
-
+3. [What is JSX?](./JSX.jsx) - Dive into the essence of JSX, understanding its nature, benefits, and its role in React.
+    - **Short for JavaScript XML**: A syntax extension for JavaScript that combines JavaScript with an HTML-like template syntax.
+    - **Write JavaScript with an HTML-like template syntax**: It looks like HTML, but it's not! It's neither a pure HTML nor a string but a powerful way to define React components.
+    - **Produces elements that represent objects**: These are the foundational blocks for React components, which under the hood get transpiled to React.createElement() calls.
 
 ## Resources
 
