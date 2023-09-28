@@ -7,6 +7,7 @@ A curated list of React interview questions with explanations, solutions, and va
 1. [Virtual DOM and the "real" DOM](#virtual-dom-and-the-real-dom)
 2. [React Limitations](#react-limitations)
 3. [What is JSX?](#what-is-jsx)
+4. [Elements vs Components](#elements-vs-components)
 
 ## Virtual DOM and the "real" DOM
 
@@ -30,6 +31,13 @@ A curated list of React interview questions with explanations, solutions, and va
     - **Short for JavaScript XML**: A syntax extension for JavaScript that combines JavaScript with an HTML-like template syntax.
     - **Write JavaScript with an HTML-like template syntax**: It looks like HTML, but it's not! It's neither a pure HTML nor a string but a powerful way to define React components.
     - **Produces elements that represent objects**: These are the foundational blocks for React components, which under the hood get transpiled to React.createElement() calls.
+
+## Elements vs Components
+
+4. [What is the difference between elements and components?](./ElementsVsComponents.jsx) - Distinguish between React's core building blocks: elements and components.
+
+    - **React Elements**: Lightweight, immutable descriptions of the UI, representing things like DOM nodes.
+    - **React Components**: Reusable UI parts with potential state and lifecycle behaviors, encapsulating multiple elements.
 
 ## Resources
 
