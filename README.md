@@ -8,6 +8,7 @@ A curated list of React interview questions with explanations, solutions, and va
 2. [React Limitations](#react-limitations)
 3. [What is JSX?](#what-is-jsx)
 4. [Elements vs Components](#elements-vs-components)
+5. [Props in React](#props-in-react)
 
 ## Virtual DOM and the "real" DOM
 
@@ -38,6 +39,13 @@ A curated list of React interview questions with explanations, solutions, and va
 
     - **React Elements**: Lightweight, immutable descriptions of the UI, representing things like DOM nodes.
     - **React Components**: Reusable UI parts with potential state and lifecycle behaviors, encapsulating multiple elements.
+
+## Props in React
+
+5. [What are Props and how do you pass data with them?](./Props.jsx)
+   - **Props (short for properties)**: A core mechanism for passing data from parent to child components in React.
+   - **From Parent to Child**: Data can be passed directly via props.
+   - **From Child to Parent**: Data can be relayed through functions provided by the parent and executed by the child.
 
 ## Resources
 
