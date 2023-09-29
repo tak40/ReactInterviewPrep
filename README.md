@@ -9,6 +9,8 @@ A curated list of React interview questions with explanations, solutions, and va
 3. [What is JSX?](#what-is-jsx)
 4. [Elements vs Components](#elements-vs-components)
 5. [Props in React](#props-in-react)
+6. [Prop-Drilling in React](#prop-drilling-in-react)
+
 
 ## Virtual DOM and the "real" DOM
 
@@ -46,6 +48,13 @@ A curated list of React interview questions with explanations, solutions, and va
    - **Props (short for properties)**: A core mechanism for passing data from parent to child components in React.
    - **From Parent to Child**: Data can be passed directly via props.
    - **From Child to Parent**: Data can be relayed through functions provided by the parent and executed by the child.
+
+## Prop-Drilling in React
+
+6. [What is Prop-Drilling and how can it be addressed?](./PropDrilling.jsx)
+   - **Prop-Drilling**: Passing data through intermediate components that don't need them just to get to nested components.
+   - **Potential Issues**: Can lead to unmanageable code, especially in larger applications with deep component trees.
+   - **Solutions**: Context API, Redux, or other state management libraries can be used to manage state and avoid prop-drilling.
 
 ## Resources
 
